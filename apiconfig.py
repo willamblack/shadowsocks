@@ -16,6 +16,7 @@ API_INTERFACE = 'modwebapi'  # glzjinmod, modwebapi
 
 WEBAPI_URL = 'https://zhaoj.in'
 WEBAPI_TOKEN = 'glzjin'
+WEBAPI_OFFSET = 0
 
 # mudb
 MUDB_FILE = 'mudb.json'
@@ -27,6 +28,7 @@ MYSQL_USER = 'ss'
 MYSQL_PASS = 'ss'
 MYSQL_DB = 'shadowsocks'
 
+MYSQL_OFFSET = 0
 MYSQL_SSL_ENABLE = 0
 MYSQL_SSL_CA = ''
 MYSQL_SSL_CERT = ''

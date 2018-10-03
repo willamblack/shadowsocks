@@ -294,6 +294,8 @@ class WebTransfer(object):
         self.mu_port_list = []
 
         for row in rows:
+		    #WEBAPI端口偏移
+            row['port'] = row['port']+get_config().WEBAPI_OFFSET
             if row['is_multi_user'] != 0:
                 self.mu_port_list.append(int(row['port']))
                 continue
